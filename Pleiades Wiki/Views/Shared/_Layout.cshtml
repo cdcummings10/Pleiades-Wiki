@@ -8,15 +8,19 @@
     <link rel="stylesheet" href="~/css/style.css" />
 </head>
 <body>
+    <header>
+        <p>@ViewBag.Title</p>
+        <p>Something</p>
+    </header>
     <div id="Sidebar">
         <ul>
-            <li>Main Page</li>
+            <li><a href="~/home" />Main Page</a></li>
             <li>Recent Changes</li>
             <li>Admin Noticeboard</li>
             <li>Random Page</li>
         </ul>
     </div>
-    <div>
+    <div id="MainBody">
         @RenderBody()
     </div>
 </body>

@@ -1,6 +1,28 @@
 ﻿body {
+    background-color: darkgoldenrod;
+    background: url('../Assets/comeindogfort.jpg') no-repeat center center fixed;
+    font-family: sans-serif;
 }
 
 #Sidebar {
+    background-color: rgb(255 240 209 / 67%);
+    border: 2px solid goldenrod;
+    height: 100%;
     float: left;
+    margin: 10px;
+    padding: 10px;
+}
+
+#MainBody {
+    background-color: rgb(255 240 209 / 67%);
+    border: 2px solid goldenrod;
+    float: left;
+    padding: 10px;
+    width: 80%;
+    min-height: 90vh;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
 }
